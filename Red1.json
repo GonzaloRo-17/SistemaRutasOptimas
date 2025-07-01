@@ -1,0 +1,80 @@
+{
+    "ciudades": [
+        {
+            "clave": "malagua",
+            "nombre": "Malagua"
+        },
+        {
+            "clave": "paris",
+            "nombre": "Paris"
+        },
+        {
+            "clave": "lurigancho",
+            "nombre": "Lurigancho"
+        },
+        {
+            "clave": "polka",
+            "nombre": "polka"
+        },
+        {
+            "clave": "pueblo libre",
+            "nombre": "pueblo libre"
+        }
+    ],
+    "rutas": [
+        {
+            "ciudad1": "malagua",
+            "ciudad2": "paris",
+            "distancia": 10,
+            "tipo": "asfalto",
+            "tiempo": 15,
+            "costo": 5.0,
+            "activa": true
+        },
+        {
+            "ciudad1": "malagua",
+            "ciudad2": "lurigancho",
+            "distancia": 35,
+            "tipo": "trocha",
+            "tiempo": 45,
+            "costo": 4.5,
+            "activa": true
+        },
+        {
+            "ciudad1": "paris",
+            "ciudad2": "lurigancho",
+            "distancia": 20,
+            "tipo": "asfalto",
+            "tiempo": 25,
+            "costo": 7.0,
+            "activa": true
+        },
+        {
+            "ciudad1": "paris",
+            "ciudad2": "polka",
+            "distancia": 30.0,
+            "tipo": "asfalto",
+            "tiempo": 25,
+            "costo": 50.0,
+            "activa": true
+        },
+        {
+            "ciudad1": "paris",
+            "ciudad2": "pueblo libre",
+            "distancia": 25.0,
+            "tipo": "asfalto",
+            "tiempo": 20,
+            "costo": 31.0,
+            "activa": true
+        },
+        {
+            "ciudad1": "lurigancho",
+            "ciudad2": "polka",
+            "distancia": 9.0,
+            "tipo": "asfalto",
+            "tiempo": 10,
+            "costo": 15.0,
+            "activa": true
+        }
+    ]
+}
